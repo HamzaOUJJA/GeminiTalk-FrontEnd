@@ -11,7 +11,7 @@ import ReactDOM           from "react-dom/client";
 import { disableReactDevTools } from "@fvilers/disable-react-devtools";
 import "./index.css";
 
-/*if (import.meta.env.NODE_ENV === 'production') disableReactDevTools()*/
+if (import.meta.env.NODE_ENV === 'production') disableReactDevTools()
 
 const Router = createBrowserRouter([{
 
