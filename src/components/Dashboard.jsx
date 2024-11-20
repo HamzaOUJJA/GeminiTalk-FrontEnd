@@ -18,7 +18,7 @@ const DashboardLayout = () => {
         queryKey: ["userChats"],
         queryFn: () =>
         fetch(`${import.meta.env.VITE_API_URL}/api/userchats`, {
-            credentials: "include",
+            credentials: "include", 
         }).then((res) => res.json()),
     });
 
